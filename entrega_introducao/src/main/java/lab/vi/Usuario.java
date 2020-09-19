@@ -7,7 +7,7 @@ public class Usuario implements UsuarioInterface {
 
 	@Override
 	public boolean logar(Usuario usuario) {
-		 if(emailBD.equals(usuario.getEmail())) 
+		if(emailBD.equals(usuario.getEmail()) && senhaBD.equals(usuario.getSenha())) 
 		return true;
 		 else
 		return false;
