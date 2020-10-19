@@ -1,6 +1,6 @@
 # Definição do projeto
 
-  O projéto é sobre login, usando email e senha para a autenticação.
+  O projeto é sobre login, usando email e senha para a autenticação.
 
 
 # Diretórios 
