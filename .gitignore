@@ -5,7 +5,16 @@ entrega_introducao/bin
 entrega_introducao/gradle
 entrega_introducao/.settings
 
+particoes_de_equivalencia/build
+particoes_de_equivalencia/.gradle
+particoes_de_equivalencia/bin
+particoes_de_equivalencia/gradle
+particoes_de_equivalencia/.settings
+
 
 # Package Files #
 entrega_introducao/.classpath
 entrega_introducao/.project
+
+particoes_de_equivalencia/.classpath
+particoes_de_equivalencia/.project
