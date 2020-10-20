@@ -11,10 +11,9 @@ public class UsuarioImplement implements Usuario {
 	@Override
 	public boolean logar(UsuarioImplement usuario) {
 		
+		//Instaciando a simulação do banco em uma Lista
 		UsuarioService a = new UsuarioService();		
 		List<UsuarioImplement> lista = a.InstanciarUsers();
-		 
-		 
 		 
 		for(int i = 0; i < lista.size(); i++){
 			if(lista.get(i).getEmail().equals(usuario.getEmail()) && lista.get(i).getSenha().equals(usuario.getSenha())) 

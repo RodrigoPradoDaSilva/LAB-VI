@@ -6,6 +6,8 @@ public class UsuarioServiceApplication {
 	public static void main(String[] args) {
 		
         System.out.println("Login do Usuario");
+
+		//Uso da biblioteca de terceiros Gson
         Gson gson = new Gson();
 
 		UsuarioImplement usuario = new UsuarioImplement("rodrigo@gmail.com","senhaforte");	
